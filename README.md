@@ -40,5 +40,8 @@
 3. Execute o arquivo "send_downlink_messages.py" para enviar os dados
 4. Visualize os dados enviados na aba "Live Data" da plataforma TTN
 
+## Autor:
+<a href="https://github.com/mateusferroantunesdeoliveira"><img src="https://avatars.githubusercontent.com/u/53230135?v=4" width="100px;" alt=""/><br /><sub><b>Mateus Ferro Antunes de Oliveira</b></sub></a>
+
 ## 
 Projeto desenvolvido e finalizado em 03/2024
