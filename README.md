@@ -14,6 +14,7 @@
 
 ## Tecnologias utilizadas:
 - Python
+- LoRa e LoRaWAN
 - The Things Network (TTN)
 - MQTT (Mosquitto)
 
@@ -24,7 +25,7 @@
 - Dispositivo IoT (LHT65N) ou "Uplink" simulado na TTN
 - API Key na plataforma TTN para o servidor MQTT - Cadastro em "Integrations" e "MQTT"
 - Servidor MQTT instalado localmente (Mosquitto, HiveMQ, etc)
-- Conhecimentos básicos em Python e MQTT
+- Conhecimentos básicos em Python, MQTT, LoRa, LoRaWAN, TTN
 
 ## Como utilizar o modo de recebimento de dados
 1. Clone o repositório
