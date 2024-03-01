@@ -43,5 +43,7 @@
 ## Autor:
 <a href="https://github.com/mateusferroantunesdeoliveira"><img src="https://avatars.githubusercontent.com/u/53230135?v=4" width="100px;" alt=""/><br /><sub><b>Mateus Ferro Antunes de Oliveira</b></sub></a>
 
+Adaptado de: [Receive Uplink](https://www.mobilefish.com/download/lora/receive_uplink_messages.py.txt) e [Send Downlink](https://www.mobilefish.com/download/lora/send_downlink_messages.py.txt) do mobileFish
+
 ## 
 Projeto desenvolvido e finalizado em 03/2024
