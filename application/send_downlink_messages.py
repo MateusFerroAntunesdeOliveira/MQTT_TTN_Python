@@ -26,7 +26,7 @@ USER = "radek-teste-device-1@ttn"
 PASSWORD = "NNSXS.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
 PUBLIC_TLS_ADDRESS = "au1.cloud.thethings.network"
 PUBLIC_TLS_ADDRESS_PORT = 8883
-DEVICE_ID = "eui-70b3d57ed006570d"
+DEVICE_ID = "eui-7000000000000000"
 
 # Meaning Quality of Service (QoS)
 # QoS = 0 - at most once
@@ -73,7 +73,7 @@ def on_log(client, userdata, level, buf):
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 
 print("Create new mqtt client instance")
-mqttc = mqtt.Client(client_id)
+mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1, client_id)
 
 print("Assign callback functions")
 mqttc.on_connect = on_connect
